@@ -1,6 +1,6 @@
 # ShwetimaSakshi-dataviz-assign2
 
-https://observablehq.com/@texas-a-m3/shwetimasakshi-dataviz-assign2@893
+https://observablehq.com/@texas-a-m3/shwetimasakshi-dataviz-assign2@900
 
 View this notebook in your browser by running a web server in this folder. For
 example:
@@ -14,7 +14,7 @@ import this module directly into your application. To npm install:
 
 ~~~sh
 npm install @observablehq/runtime@5
-npm install https://api.observablehq.com/d/83469f70698800c0@893.tgz?v=3
+npm install https://api.observablehq.com/d/83469f70698800c0@900.tgz?v=3
 ~~~
 
 Then, import your notebook and the runtime as:
