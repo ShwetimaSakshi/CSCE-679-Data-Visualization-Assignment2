@@ -8,3 +8,5 @@
 - View the page on local using:
   - http://127.0.0.1:8000
   - http://192.168.0.24:8000
+ 
+Please ensure that nothing else is running on 8000 port. Also to install node using brew, brew should be present in mac. Please use appropriate command if you are using windows.
