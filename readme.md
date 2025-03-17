@@ -1,14 +1,12 @@
 # CSCE-679-Data-Visualization-Assignment2
 
-## Level 1 & 2 (Basic): [Link](./level1.md)
-HK Temperature Heatmap
-![level1](./level1.png)
+Please follow below steps to run the code for data vizualization of temperature_daily.csv 
 
-## Grading:
-1. Correctness (50%): The data visualizations generated should look the same.
-2. Redability (30%): The code should be human-readable (i.e., the name of the variables and functions should be intuitive, and there should be enough comments).
-3. Maintainability (20%): The code should be modulized and easily modified.
-
-## Submission:
-
-Please create a github repository under your github account, and submit the URL of that repository to Canvas.
+Step 1. Clone the github repository
+Step 2. Install homebrew using: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+Step 3. Install node.js using: brew install node
+Step 4. Install http server using: npm install -g http-server
+Step 5. Run the server using: http-server -p 8000
+Step 6. View the page on local using:
+  http://127.0.0.1:8000
+  http://192.168.0.24:8000
