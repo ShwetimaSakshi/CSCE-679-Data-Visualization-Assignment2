@@ -212,14 +212,14 @@ async function _18(html,Inputs,vl,tenYearData)
                           { field: 'min_temperature', title: 'Min' }
                          ])
             )
-            .width(50)
-            .height(50),
+            .width(65)
+            .height(65),
           
           // Set the background just as we would have in the heatmap to show overall max and min temperature for each month tile
           vl.markRect({ opacity: 0.1 })
             .encode(
               vl.x().fieldQ("day").title(null).axis(null),
-              vl.y().fieldQ(fieldName).title(null).scale({ domain: [0, 40] }),
+              vl.y().fieldQ(fieldName).title(null).axis(null).scale({ domain: [0,30] }),
               vl.color().fieldQ(fieldName).scale({scheme:"reds" }).title("Max Temperature"),
               vl.tooltip([{ field: 'formatted_date', title: 'Date' },
                           { field: 'max_temperature', title: 'Max' },
