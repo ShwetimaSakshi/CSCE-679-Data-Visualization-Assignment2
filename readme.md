@@ -2,7 +2,6 @@
 
 ## Please follow below steps to run the code for data vizualization of temperature_daily.csv 
 - Clone the github repository
-- Install homebrew using: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 - Install node.js using: brew install node
 - Install http server using: npm install -g http-server
 - Run the server using: http-server -p 8000
